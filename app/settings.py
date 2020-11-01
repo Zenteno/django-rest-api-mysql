@@ -62,7 +62,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:8081',
 )
 
-ROOT_URLCONF = 'bzkRestApisMySQL.urls'
+ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
     {
@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bzkRestApisMySQL.wsgi.application'
+WSGI_APPLICATION = 'app.wsgi.application'
 
 
 # Database
