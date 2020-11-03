@@ -1,3 +1,3 @@
 djangorestframework
-pymysql
+mysqclient
 django-cors-headers
